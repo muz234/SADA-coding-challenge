@@ -23,7 +23,7 @@ public class longestCompound {
         int i=0;
         try {
             // importing String data from .txt to String Array.
-            File scObject = new File("/Users/muzaffarahmed/Desktop/Github/SADA/words.txt");
+            File scObject = new File("words.txt");
             Scanner read = new Scanner(scObject);
             while (read.hasNextLine()) {
                 data = read.nextLine();
